@@ -1,0 +1,158 @@
+2022-10-02 12:36:39,388 INFO    StreamThr :14680 [internal.py:wandb_internal():88] W&B internal server running at pid: 14680, started at: 2022-10-02 12:36:39.387780
+2022-10-02 12:36:39,389 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: status
+2022-10-02 12:36:39,392 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: status
+2022-10-02 12:36:39,394 INFO    WriterThread:14680 [datastore.py:open_for_write():75] open: c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\run-w33xj8yp.wandb
+2022-10-02 12:36:39,394 DEBUG   SenderThread:14680 [sender.py:send():301] send: header
+2022-10-02 12:36:39,396 DEBUG   SenderThread:14680 [sender.py:send():301] send: run
+2022-10-02 12:36:39,947 INFO    SenderThread:14680 [dir_watcher.py:__init__():216] watching files in: c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files
+2022-10-02 12:36:39,948 INFO    SenderThread:14680 [sender.py:_start_run_threads():912] run started: w33xj8yp with start time 1664703399.38778
+2022-10-02 12:36:39,948 DEBUG   SenderThread:14680 [sender.py:send():301] send: summary
+2022-10-02 12:36:39,948 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: check_version
+2022-10-02 12:36:39,948 INFO    SenderThread:14680 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-02 12:36:39,948 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: check_version
+2022-10-02 12:36:40,153 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: run_start
+2022-10-02 12:36:40,177 DEBUG   HandlerThread:14680 [meta.py:__init__():34] meta init
+2022-10-02 12:36:40,177 DEBUG   HandlerThread:14680 [meta.py:__init__():49] meta init done
+2022-10-02 12:36:40,177 DEBUG   HandlerThread:14680 [meta.py:probe():215] probe
+2022-10-02 12:36:40,203 DEBUG   HandlerThread:14680 [git.py:repo():40] git repository is invalid
+2022-10-02 12:36:40,203 DEBUG   HandlerThread:14680 [meta.py:_save_pip():53] save pip
+2022-10-02 12:36:40,205 DEBUG   HandlerThread:14680 [meta.py:_save_pip():67] save pip done
+2022-10-02 12:36:40,205 DEBUG   HandlerThread:14680 [meta.py:probe():253] probe done
+2022-10-02 12:36:40,221 DEBUG   SenderThread:14680 [sender.py:send():301] send: files
+2022-10-02 12:36:40,221 INFO    SenderThread:14680 [sender.py:_save_file():1155] saving file wandb-metadata.json with policy now
+2022-10-02 12:36:40,230 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-02 12:36:40,230 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: stop_status
+2022-10-02 12:36:40,498 DEBUG   SenderThread:14680 [sender.py:send():301] send: telemetry
+2022-10-02 12:36:40,949 INFO    Thread-17 :14680 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files\wandb-metadata.json
+2022-10-02 12:36:40,949 INFO    Thread-17 :14680 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files\requirements.txt
+2022-10-02 12:36:40,949 INFO    Thread-17 :14680 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files\wandb-summary.json
+2022-10-02 12:36:41,036 INFO    Thread-21 :14680 [upload_job.py:push():139] Uploaded file C:\Users\Beast\AppData\Local\Temp\tmpu7pa0l24wandb\3j2n04ad-wandb-metadata.json
+2022-10-02 12:36:41,916 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-02 12:36:41,916 DEBUG   SenderThread:14680 [sender.py:send():301] send: history
+2022-10-02 12:36:41,916 DEBUG   SenderThread:14680 [sender.py:send():301] send: summary
+2022-10-02 12:36:41,918 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:36:41,920 INFO    SenderThread:14680 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-02 12:36:41,921 DEBUG   SenderThread:14680 [sender.py:send():301] send: telemetry
+2022-10-02 12:36:41,921 DEBUG   SenderThread:14680 [sender.py:send():301] send: exit
+2022-10-02 12:36:41,921 INFO    SenderThread:14680 [sender.py:send_exit():437] handling exit code: 0
+2022-10-02 12:36:41,921 INFO    SenderThread:14680 [sender.py:send_exit():439] handling runtime: 1
+2022-10-02 12:36:41,922 INFO    SenderThread:14680 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-02 12:36:41,922 INFO    SenderThread:14680 [sender.py:send_exit():445] send defer
+2022-10-02 12:36:41,922 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:36:41,923 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:36:41,923 INFO    HandlerThread:14680 [handler.py:handle_request_defer():161] handle defer: 0
+2022-10-02 12:36:41,923 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:36:41,923 INFO    SenderThread:14680 [sender.py:send_request_defer():454] handle sender defer: 0
+2022-10-02 12:36:41,923 INFO    SenderThread:14680 [sender.py:transition_state():458] send defer: 1
+2022-10-02 12:36:41,923 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:36:41,923 INFO    HandlerThread:14680 [handler.py:handle_request_defer():161] handle defer: 1
+2022-10-02 12:36:41,956 INFO    Thread-17 :14680 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files\wandb-summary.json
+2022-10-02 12:36:41,956 INFO    Thread-17 :14680 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files\output.log
+2022-10-02 12:36:42,007 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:36:42,007 INFO    SenderThread:14680 [sender.py:send_request_defer():454] handle sender defer: 1
+2022-10-02 12:36:42,008 INFO    SenderThread:14680 [sender.py:transition_state():458] send defer: 2
+2022-10-02 12:36:42,008 DEBUG   SenderThread:14680 [sender.py:send():301] send: stats
+2022-10-02 12:36:42,008 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:36:42,009 INFO    HandlerThread:14680 [handler.py:handle_request_defer():161] handle defer: 2
+2022-10-02 12:36:42,009 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:36:42,009 INFO    SenderThread:14680 [sender.py:send_request_defer():454] handle sender defer: 2
+2022-10-02 12:36:42,009 INFO    SenderThread:14680 [sender.py:transition_state():458] send defer: 3
+2022-10-02 12:36:42,010 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:36:42,010 INFO    HandlerThread:14680 [handler.py:handle_request_defer():161] handle defer: 3
+2022-10-02 12:36:42,010 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:36:42,010 INFO    SenderThread:14680 [sender.py:send_request_defer():454] handle sender defer: 3
+2022-10-02 12:36:42,010 INFO    SenderThread:14680 [sender.py:transition_state():458] send defer: 4
+2022-10-02 12:36:42,010 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:36:42,010 INFO    HandlerThread:14680 [handler.py:handle_request_defer():161] handle defer: 4
+2022-10-02 12:36:42,010 DEBUG   SenderThread:14680 [sender.py:send():301] send: summary
+2022-10-02 12:36:42,012 INFO    SenderThread:14680 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-02 12:36:42,012 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:36:42,012 INFO    SenderThread:14680 [sender.py:send_request_defer():454] handle sender defer: 4
+2022-10-02 12:36:42,012 INFO    SenderThread:14680 [sender.py:transition_state():458] send defer: 5
+2022-10-02 12:36:42,013 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:36:42,013 INFO    HandlerThread:14680 [handler.py:handle_request_defer():161] handle defer: 5
+2022-10-02 12:36:42,013 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:36:42,013 INFO    SenderThread:14680 [sender.py:send_request_defer():454] handle sender defer: 5
+2022-10-02 12:36:42,035 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:36:42,291 INFO    SenderThread:14680 [sender.py:transition_state():458] send defer: 6
+2022-10-02 12:36:42,291 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:36:42,291 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:36:42,292 INFO    HandlerThread:14680 [handler.py:handle_request_defer():161] handle defer: 6
+2022-10-02 12:36:42,292 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:36:42,292 INFO    SenderThread:14680 [sender.py:send_request_defer():454] handle sender defer: 6
+2022-10-02 12:36:42,398 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:36:42,966 INFO    Thread-17 :14680 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files\config.yaml
+2022-10-02 12:36:42,967 INFO    Thread-17 :14680 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files\wandb-summary.json
+2022-10-02 12:36:43,933 INFO    SenderThread:14680 [sender.py:transition_state():458] send defer: 7
+2022-10-02 12:36:43,933 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:36:43,933 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:36:43,934 INFO    HandlerThread:14680 [handler.py:handle_request_defer():161] handle defer: 7
+2022-10-02 12:36:43,934 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:36:43,934 INFO    SenderThread:14680 [sender.py:send_request_defer():454] handle sender defer: 7
+2022-10-02 12:36:43,934 INFO    SenderThread:14680 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-10-02 12:36:43,978 INFO    SenderThread:14680 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files\output.log
+2022-10-02 12:36:43,979 INFO    SenderThread:14680 [dir_watcher.py:finish():392] scan: c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files
+2022-10-02 12:36:43,979 INFO    SenderThread:14680 [dir_watcher.py:finish():406] scan save: c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files\config.yaml config.yaml
+2022-10-02 12:36:43,980 INFO    SenderThread:14680 [dir_watcher.py:finish():406] scan save: c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files\output.log output.log
+2022-10-02 12:36:43,982 INFO    SenderThread:14680 [dir_watcher.py:finish():406] scan save: c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files\requirements.txt requirements.txt
+2022-10-02 12:36:43,984 INFO    SenderThread:14680 [dir_watcher.py:finish():406] scan save: c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files\wandb-metadata.json wandb-metadata.json
+2022-10-02 12:36:43,984 INFO    SenderThread:14680 [dir_watcher.py:finish():406] scan save: c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files\wandb-summary.json wandb-summary.json
+2022-10-02 12:36:43,986 INFO    SenderThread:14680 [sender.py:transition_state():458] send defer: 8
+2022-10-02 12:36:43,989 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:36:43,989 INFO    HandlerThread:14680 [handler.py:handle_request_defer():161] handle defer: 8
+2022-10-02 12:36:43,989 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:36:43,990 INFO    SenderThread:14680 [sender.py:send_request_defer():454] handle sender defer: 8
+2022-10-02 12:36:43,990 INFO    SenderThread:14680 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-02 12:36:44,043 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:36:44,043 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:36:44,149 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:36:44,149 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:36:44,259 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:36:44,259 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:36:44,368 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:36:44,368 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:36:44,478 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:36:44,478 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:36:44,588 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:36:44,588 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:36:44,698 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:36:44,699 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:36:44,733 INFO    Thread-24 :14680 [upload_job.py:push():139] Uploaded file c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files\requirements.txt
+2022-10-02 12:36:44,740 INFO    Thread-23 :14680 [upload_job.py:push():139] Uploaded file c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files\output.log
+2022-10-02 12:36:44,743 INFO    Thread-25 :14680 [upload_job.py:push():139] Uploaded file c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files\wandb-summary.json
+2022-10-02 12:36:44,795 INFO    Thread-22 :14680 [upload_job.py:push():139] Uploaded file c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\files\config.yaml
+2022-10-02 12:36:44,809 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:36:44,809 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:36:44,919 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:36:44,920 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:36:44,997 INFO    Thread-16 (_thread_body):14680 [sender.py:transition_state():458] send defer: 9
+2022-10-02 12:36:44,997 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:36:44,997 INFO    HandlerThread:14680 [handler.py:handle_request_defer():161] handle defer: 9
+2022-10-02 12:36:44,998 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:36:44,998 INFO    SenderThread:14680 [sender.py:send_request_defer():454] handle sender defer: 9
+2022-10-02 12:36:45,029 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:36:45,281 INFO    SenderThread:14680 [sender.py:transition_state():458] send defer: 10
+2022-10-02 12:36:45,281 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:36:45,282 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:36:45,282 INFO    HandlerThread:14680 [handler.py:handle_request_defer():161] handle defer: 10
+2022-10-02 12:36:45,282 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:36:45,282 INFO    SenderThread:14680 [sender.py:send_request_defer():454] handle sender defer: 10
+2022-10-02 12:36:45,282 INFO    SenderThread:14680 [sender.py:transition_state():458] send defer: 11
+2022-10-02 12:36:45,283 DEBUG   SenderThread:14680 [sender.py:send():301] send: final
+2022-10-02 12:36:45,283 DEBUG   SenderThread:14680 [sender.py:send():301] send: footer
+2022-10-02 12:36:45,283 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: defer
+2022-10-02 12:36:45,283 INFO    HandlerThread:14680 [handler.py:handle_request_defer():161] handle defer: 11
+2022-10-02 12:36:45,283 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: defer
+2022-10-02 12:36:45,283 INFO    SenderThread:14680 [sender.py:send_request_defer():454] handle sender defer: 11
+2022-10-02 12:36:45,391 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-02 12:36:45,391 DEBUG   SenderThread:14680 [sender.py:send_request():315] send_request: poll_exit
+2022-10-02 12:36:45,391 INFO    SenderThread:14680 [file_pusher.py:join():173] waiting for file pusher
+2022-10-02 12:36:46,037 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: sampled_history
+2022-10-02 12:36:46,038 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: get_summary
+2022-10-02 12:36:46,039 DEBUG   HandlerThread:14680 [handler.py:handle_request():138] handle_request: shutdown
+2022-10-02 12:36:46,039 INFO    HandlerThread:14680 [handler.py:finish():807] shutting down handler
+2022-10-02 12:36:46,289 INFO    WriterThread:14680 [datastore.py:close():279] close: c:\Users\Beast\Documents\source\dicegame\wandb\run-20221002_123639-w33xj8yp\run-w33xj8yp.wandb
+2022-10-02 12:36:46,918 INFO    SenderThread:14680 [sender.py:finish():1315] shutting down sender
+2022-10-02 12:36:46,918 INFO    SenderThread:14680 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-02 12:36:46,918 INFO    SenderThread:14680 [file_pusher.py:join():173] waiting for file pusher
+2022-10-02 12:36:48,326 INFO    MainThread:14680 [internal.py:handle_exit():78] Internal process exited

@@ -1,0 +1,6 @@
+wandb_version: 1
+
+gamma:
+  value: 0.985
+theta:
+  value: 0.05

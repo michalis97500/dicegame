@@ -1,0 +1,159 @@
+2022-10-01 13:29:55,912 INFO    Thread-87 (_run_job):5516 [wandb_setup.py:_flush():68] Configure stats pid to 5516
+2022-10-01 13:29:55,913 INFO    Thread-87 (_run_job):5516 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Beast\.config\wandb\settings
+2022-10-01 13:29:55,913 INFO    Thread-87 (_run_job):5516 [wandb_setup.py:_flush():68] Loading settings from c:\Users\Beast\Documents\source\dicegame\wandb\settings
+2022-10-01 13:29:55,913 INFO    Thread-87 (_run_job):5516 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'DiceGame', 'entity': 'michalis', 'root_dir': 'c:\\Users\\Beast\\Documents\\source\\dicegame', 'run_id': '2o8htjuu', 'sweep_param_path': 'c:\\Users\\Beast\\Documents\\source\\dicegame\\wandb\\sweep-yti001p5\\config-2o8htjuu.yaml', 'sweep_id': 'yti001p5'}
+2022-10-01 13:29:55,914 INFO    Thread-87 (_run_job):5516 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-10-01 13:29:55,914 INFO    Thread-87 (_run_job):5516 [wandb_init.py:_log_setup():476] Logging user logs to c:\Users\Beast\Documents\source\dicegame\wandb\run-20221001_132955-2o8htjuu\logs\debug.log
+2022-10-01 13:29:55,914 INFO    Thread-87 (_run_job):5516 [wandb_init.py:_log_setup():477] Logging internal logs to c:\Users\Beast\Documents\source\dicegame\wandb\run-20221001_132955-2o8htjuu\logs\debug-internal.log
+2022-10-01 13:29:55,914 INFO    Thread-87 (_run_job):5516 [wandb_init.py:init():516] calling init triggers
+2022-10-01 13:29:55,914 INFO    Thread-87 (_run_job):5516 [wandb_init.py:init():519] wandb.init called with sweep_config: {'gamma': 0.995, 'theta': 0.001}
+config: {}
+2022-10-01 13:29:55,914 INFO    Thread-87 (_run_job):5516 [wandb_init.py:init():569] starting backend
+2022-10-01 13:29:55,915 INFO    Thread-87 (_run_job):5516 [wandb_init.py:init():573] setting up manager
+2022-10-01 13:29:55,919 INFO    Thread-87 (_run_job):5516 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn, using: spawn
+2022-10-01 13:29:55,924 INFO    Thread-87 (_run_job):5516 [wandb_init.py:init():580] backend started and connected
+2022-10-01 13:29:55,928 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_config_callback():1145] config_cb None None {'gamma': 0.995, 'theta': 0.001}
+2022-10-01 13:29:55,928 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_label_probe_notebook():1098] probe notebook
+2022-10-01 13:29:55,928 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_label_probe_notebook():1108] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-10-01 13:29:55,928 INFO    Thread-87 (_run_job):5516 [wandb_init.py:init():658] updated telemetry
+2022-10-01 13:29:55,929 INFO    Thread-87 (_run_job):5516 [wandb_init.py:init():692] communicating run to backend with 30 second timeout
+2022-10-01 13:29:56,484 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_on_init():1974] communicating current version
+2022-10-01 13:29:56,681 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_on_init():1978] got version response 
+2022-10-01 13:29:56,681 INFO    Thread-87 (_run_job):5516 [wandb_init.py:init():727] starting run threads in backend
+2022-10-01 13:29:56,743 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_console_start():1954] atexit reg
+2022-10-01 13:29:56,743 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_redirect():1812] redirect: SettingsConsole.WRAP_RAW
+2022-10-01 13:29:56,743 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_redirect():1877] Wrapping output streams.
+2022-10-01 13:29:56,743 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_redirect():1899] Redirects installed.
+2022-10-01 13:29:56,744 INFO    Thread-87 (_run_job):5516 [wandb_init.py:init():764] run started, returning control to user process
+2022-10-01 13:29:57,314 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_finish():1720] finishing run michalis/DiceGame/2o8htjuu
+2022-10-01 13:29:57,315 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_atexit_cleanup():1923] got exitcode: 0
+2022-10-01 13:29:57,315 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_restore():1906] restore
+2022-10-01 13:29:57,315 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_restore():1912] restore done
+2022-10-01 13:29:57,321 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 584
+  total_bytes: 584
+}
+
+2022-10-01 13:29:57,692 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 584
+  total_bytes: 584
+}
+
+2022-10-01 13:29:59,331 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 584
+  total_bytes: 584
+}
+
+2022-10-01 13:29:59,525 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 584
+  total_bytes: 2798
+}
+
+2022-10-01 13:29:59,640 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 584
+  total_bytes: 2977
+}
+
+2022-10-01 13:29:59,750 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 584
+  total_bytes: 2977
+}
+
+2022-10-01 13:29:59,859 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 584
+  total_bytes: 2977
+}
+
+2022-10-01 13:29:59,968 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2977
+  total_bytes: 2977
+}
+
+2022-10-01 13:30:00,078 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2977
+  total_bytes: 2977
+}
+
+2022-10-01 13:30:00,189 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2977
+  total_bytes: 2977
+}
+
+2022-10-01 13:30:00,297 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2977
+  total_bytes: 2977
+}
+
+2022-10-01 13:30:00,407 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2977
+  total_bytes: 2977
+}
+
+2022-10-01 13:30:00,519 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2977
+  total_bytes: 2977
+}
+
+2022-10-01 13:30:00,699 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2977
+  total_bytes: 2977
+}
+
+2022-10-01 13:30:01,323 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_on_finish():2224] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2977
+  total_bytes: 2977
+}
+local_info {
+}
+
+2022-10-01 13:30:02,450 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_footer_history_summary_info():3321] rendering history
+2022-10-01 13:30:02,450 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_footer_history_summary_info():3353] rendering summary
+2022-10-01 13:30:02,453 INFO    Thread-87 (_run_job):5516 [wandb_run.py:_footer_sync_info():3277] logging synced files

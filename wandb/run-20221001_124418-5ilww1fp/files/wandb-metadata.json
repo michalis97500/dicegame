@@ -1,0 +1,17 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.10.7",
+    "heartbeatAt": "2022-10-01T09:44:19.024849",
+    "startedAt": "2022-10-01T09:44:18.217998",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "DESKTOP-2GH64FM",
+    "username": "Beast",
+    "executable": "C:\\Users\\Beast\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\python.exe"
+}

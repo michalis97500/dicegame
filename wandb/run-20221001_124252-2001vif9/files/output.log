@@ -1,0 +1,4 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+Create sweep with ID: zzxtv2ec
+Sweep URL: https://wandb.ai/michalis/DiceGame/sweeps/zzxtv2ec
