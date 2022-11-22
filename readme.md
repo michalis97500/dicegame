@@ -1,5 +1,5 @@
+
 ## Introduction
-#
 This project was an assignemnt during my Masters course at The University of Bath on October 2022.
 Course: MSc Computer Science Module: Artificial Intelligence
 
@@ -11,6 +11,27 @@ In this project we are given two agents to compare with our one, as a measurmene
 >2) Perfectionist : This agent will always roll untill it gets a perfect dice combination. 
 
 All of the agents will be tested under a set of games (100) and the average score will be calculated. The agent with the highest average score will be the best agent. To make the experiment valid, the randomization is eliminated and a "seed" will be used to generate the same random numbers for all the agents.
+
+## Results
+>Standard game feedback:
+On a fixed set of dice rolls over 1000 games the submitted agent achieved a mean score of 13.416.
+(For reference, always holding achieves 10.412, and the optimal strategy achieves 13.424)
+This is obviously an extremely strong result, well done.
+However, in analytical tests, the agent does not seem to play the true optimal policy.
+For example, in state (5, 5, 6) we calculate the optimal action to be (), but your agent plays (0, 2).
+If you are using value iteration, it's possible you used a terminating threshold too high, the wrong value of gamma, or there might just be a small mistake.
+Extended rules feedback:
+Your agent performed just as well or even better on more challenging versions of the game, well done!
+Really great work overall. There will be more general feedback on the forums, and if you would like to get more specific individual feedback on part of your submission then you are welcome to contact a tutor.
+Keep up the good work.
+Final grade is: 91
+
+>Readme feedback:   
+Good overview of the value iteration approach and your implementation. Some discussion of your hyperparameter choices, but you could go into more detail.You are correct that a high discount factor is preferable - in fact the best value for gamma is 1.   
+Final grade: 91
+
+The project achieved a grade of 91/100
+
 
 ## Background
 #
